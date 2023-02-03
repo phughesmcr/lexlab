@@ -1,0 +1,24 @@
+{
+  "cSpell.words": [
+    "caniuse",
+    "CODEOWNERS",
+    "codepaths",
+    "corejs",
+    "devtool",
+    "dotfiles",
+    "downlevel",
+    "esmodules",
+    "ESNEXT",
+    "iife",
+    "jsnext",
+    "jstemplate",
+    "Parens",
+    "postbuild",
+    "sourcemap",
+    "treeshake",
+    "tsbuildinfo",
+    "tslib",
+    "typechecking",
+    "typedoc"
+  ],
+}
