@@ -1,7 +1,7 @@
 {
-  "name": "js_template",
+  "name": "lexlab",
   "version": "0.1.0",
-  "description": "",
+  "description": "Lexicon based text analysis in Typescript",
   "main": "dist/esm/index.min.js",
   "module": "dist/esm/index.min.js",
   "browser": "dist/umd/index.min.js",
@@ -71,13 +71,11 @@
     "lint:fix": "eslint --fix \"./src/**/*.ts\"",
     "test": "mocha",
     "check:types": "tsc --noEmit",
-    "check:es5": "npx es-check es5 ./dist/iife/*.js --verbose",
-    "check:es3": "npx es-check es3 ./dist/iife/*.js --verbose",
     "gh-pages": "gh-pages --dist=./ --dotfiles=true"
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/phughesmcr/lexlab.git"
   },
   "engines": {
     "node": ">=16"
@@ -90,9 +88,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/phughesmcr/lexlab/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/phughesmcr/lexlab",
   "dependencies": {
     "core-js": "^3.27.2"
   }
